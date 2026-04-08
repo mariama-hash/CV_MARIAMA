@@ -1,1 +1,234 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Curriculum Vitae</title>\n    <style>\n        body { font-family: Arial, sans-serif; margin: 20px; }\n        h1 { color: #333; }\n        h2 { color: #555; }\n        p { margin: 10px 0; }\n        .section { margin-bottom: 20px; }\n    </style>\n</head>\n<body>\n    <h1>Curriculum Vitae</h1>\n    <div class="section">\n        <h2>Personal Information</h2>\n        <p><strong>Name:</strong> Mariama Hash</p>\n        <p><strong>Email:</strong> mariama@example.com</p>\n        <p><strong>Phone:</strong> +123456789</p>\n    </div>\n    <div class="section">\n        <h2>Education</h2>\n        <p><strong>B.Sc. in Computer Science</strong>, University ABC (2018 - 2022)</p>\n    </div>\n    <div class="section">\n        <h2>Experience</h2>\n        <p><strong>Software Developer</strong>, Company XYZ (2022 - Present)</p>\n        <p>Developing web applications and improving user experience.</p>\n    </div>\n    <div class="section">\n        <h2>Skills</h2>\n        <p>JavaScript, HTML, CSS, React, Node.js</p>\n    </div>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Mariama</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* GAUCHE */
+.left {
+    width: 35%;
+    background: #020617;
+    padding: 25px;
+}
+
+.left h2 {
+    color: #38bdf8;
+    border-bottom: 1px solid #38bdf8;
+}
+
+.left a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* DROITE */
+.right {
+    width: 65%;
+    padding: 30px;
+}
+
+.right h1 {
+    margin-top: 0;
+}
+
+.right h2 {
+    color: #38bdf8;
+    border-bottom: 1px solid #38bdf8;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 25px;
+}
+
+/* LISTES */
+ul {
+    padding-left: 18px;
+}
+
+/* BARRES DE COMPÉTENCES */
+.skill {
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 6px;
+    background: #334155;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #38bdf8;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- GAUCHE -->
+<div class="left">
+
+<h1>SEYDOU Zouwéra</h1>
+<p>Développeuse Web & Mobile</p>
+
+<div class="section">
+<h2>Contact</h2>
+<p>Lomé, Togo</p>
+<p>+228 79339061/ 96195114</p>
+<p><a href="mailto:mariamaramani0@email.com">Email</a></p>
+<p>GitHub : github.com/mariama-hash</p>
+</div>
+
+<div class="section">
+<h2>Compétences clés</h2>
+<h3>Langages</h3>
+<div class="skill">HTML / CSS
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+<div class="skill">JavaScript
+<div class="bar"><div class="fill" style="width:75%"></div></div>
+</div>
+
+<div class="skill">Flutter
+<div class="bar"><div class="fill" style="width:50%"></div></div>
+</div>
+
+<div class="skill">SQL / MySQL
+<div class="bar"><div class="fill" style="width:70%"></div></div>
+</div>
+
+<div class="skill">C++
+<div class="bar"><div class="fill" style="width:65%"></div></div>
+</div>
+<div class="skill">Word / Excel / PowerPoint / access
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div><br>
+<div class="skill">Graphiste: creation de visuel (Canva, photoshop)
+<div class="bar"><div class="fill" style="width:60%"></div></div>
+</div>
+</div>
+
+<div class="section">
+<h2>Outils</h2>
+<ul>
+<li>VS Code</li>
+<li>Git / GitHub</li>
+<li>XAMPP</li>
+<li>Canva / Photoshop</li>
+</ul>
+</div>
+
+
+<div class="section">
+<h2>Langues</h2>
+<p>Français (courant)</p>
+<p>Anglais (intermédiaire)</p>
+<p>Allemand (niveau scolaire)</p>
+</div>
+
+</div>
+
+<!-- DROITE -->
+<div class="right">
+
+<div class="section">
+<h1>Profil</h1>
+<p>
+Étudiante en informatique spécialisée en développement web et mobile.
+Maîtrise des technologies modernes et capacité à concevoir des applications
+fonctionnelles et responsive.
+</p>
+</div>
+
+<div class="section">
+<h2>Formation</h2>
+<p><strong>Baccalauréat A4</strong> — 2023</p>
+<p><strong>Licence 1 Informatique</strong> — DEFITECH (2024 - 2025)</p>
+<p><strong>Licence 2 Informatique</strong> — ESIG Global Success (2025 - 2026)</p>
+
+</div>
+
+<div class="section">
+<h2>Projets académiques</h2>
+
+<p><strong>Application Web Dynamique</strong></p>
+<ul>
+<li>Conception base de données</li>
+<li>Interface responsive</li>
+<li>Gestion utilisateurs</li>
+</ul>
+
+<p><strong>Application Mobile Flutter(Dinease)</strong></p>
+<ul>
+<li>Interface interactive</li>
+<li>Navigation multipage</li>
+</ul>
+
+<p><strong>Programme C++</strong></p>
+<ul>
+<li>Structures de données</li>
+<li>Algorithmes de tri</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Atouts</h2>
+<ul>
+<li>Esprit d’analyse</li>
+<li>Rigueur</li>
+<li>Travail en équipe</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Centres d’intérêt</h2>
+<ul>
+<li>informatique</li>
+<li>Lecture</li>
+<li>handball</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
